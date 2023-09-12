@@ -9,14 +9,14 @@ else
   exit
 fi
 
-echo 'start redis service'
-systemctl start redis.service
-if [ $? == 0 ]; then
-  echo 'redis servie started'
-else
-  echo 'service starting failed'
-  exit
-fi
+# echo 'start redis service'
+# systemctl start redis.service
+# if [ $? == 0 ]; then
+#   echo 'redis servie started'
+# else
+#   echo 'service starting failed'
+#   exit
+# fi
 
 echo "Creating namizun directory (step 2)"
 mkdir -p /var/www/namizun && cd /var/www/namizun
@@ -50,14 +50,14 @@ if [ $? != 0 ]; then
   exit
 fi
 
-echo 'Reload services and start namizun.service (step 7)'
-systemctl daemon-reload
-sudo systemctl enable namizun.service
-sudo systemctl start namizun.service
-if [ $? != 0 ]; then
-  echo "Namizun service didn't started"
-  exit
-fi
+# echo 'Reload services and start namizun.service (step 7)'
+# systemctl daemon-reload
+# sudo systemctl enable namizun.service
+# sudo systemctl start namizun.service
+# if [ $? != 0 ]; then
+#   echo "Namizun service didn't started"
+#   exit
+# fi
 
 echo "make namizun as a command (step 8)"
 ln -s /var/www/namizun/else/namizun /usr/local/bin/ && chmod +x /usr/local/bin/namizun
