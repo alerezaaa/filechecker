@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-echo 'Install prerequisites (step 1)'
-apt update && apt install python3-pip python3-venv redis git -y
-if [ $? == 0 ]; then
-  echo 'Successfully installed'
-else
-  echo 'An error occurred while installing the prerequisites'
-  exit
-fi
+# echo 'Install prerequisites (step 1)'
+# apt update && apt install python3-pip python3-venv redis git -y
+# if [ $? == 0 ]; then
+#   echo 'Successfully installed'
+# else
+#   echo 'An error occurred while installing the prerequisites'
+#   exit
+# fi
 
 # echo 'start redis service'
 # systemctl start redis.service
