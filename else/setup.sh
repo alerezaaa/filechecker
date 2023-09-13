@@ -43,12 +43,12 @@ if [ $? != 0 ]; then
   exit
 fi
 
-echo 'Create namizun service (step 6)'
-ln -s /var/www/namizun/else/namizun.service /etc/systemd/system/
-if [ $? != 0 ]; then
-  echo 'Creating service was failed'
-  exit
-fi
+# echo 'Create namizun service (step 6)'
+# ln -s /var/www/namizun/else/namizun.service /etc/systemd/system/
+# if [ $? != 0 ]; then
+#   echo 'Creating service was failed'
+#   exit
+# fi
 
 # echo 'Reload services and start namizun.service (step 7)'
 # systemctl daemon-reload
