@@ -31,7 +31,7 @@ def get_default(key):
     elif key == 'fake_udp_uploader_running':
         return True
     elif key == 'coefficient_buffer_size':
-        return 2
+        return 1
     elif key == 'coefficient_uploader_threads_count':
         return 10
     elif key == 'coefficient_buffer_sending_speed':
@@ -39,13 +39,13 @@ def get_default(key):
     elif key == 'coefficient_limitation':
         return 10
     elif key == 'total_upload_cache':
-        return 1
+        return 1024
     elif key == 'total_download_cache':
-        return 200
+        return 204800
     elif key == 'upload_amount_synchronizer':
-        return 1
+        return 1024
     elif key == 'download_amount_synchronizer':
-        return 300
+        return 307600
     elif key == 'in_submenu':
         return False
 
