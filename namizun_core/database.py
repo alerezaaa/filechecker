@@ -33,19 +33,19 @@ def get_default(key):
     elif key == 'coefficient_buffer_size':
         return 1
     elif key == 'coefficient_uploader_threads_count':
-        return 10
+        return 5
     elif key == 'coefficient_buffer_sending_speed':
         return 1
     elif key == 'coefficient_limitation':
         return 10
     elif key == 'total_upload_cache':
-        return 10737418240
+        return 1073741824
     elif key == 'total_download_cache':
-        return 214748364801
+        return 21474836480
     elif key == 'upload_amount_synchronizer':
-        return 107374182400
+        return 10737418240
     elif key == 'download_amount_synchronizer':
-        return 322122547200
+        return 32212254720
     elif key == 'in_submenu':
         return False
 
