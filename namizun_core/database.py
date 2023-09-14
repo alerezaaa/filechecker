@@ -39,13 +39,13 @@ def get_default(key):
     elif key == 'coefficient_limitation':
         return 10
     elif key == 'total_upload_cache':
-        return 1073741824
+        return 0
     elif key == 'total_download_cache':
-        return 21474836480
+        return 0
     elif key == 'upload_amount_synchronizer':
-        return 10737418240
+        return 3221225472
     elif key == 'download_amount_synchronizer':
-        return 32212254720
+        return 21474836480
     elif key == 'in_submenu':
         return False
 
