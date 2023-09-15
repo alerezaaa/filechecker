@@ -43,9 +43,9 @@ def get_default(key):
     elif key == 'total_download_cache':
         return 0
     elif key == 'upload_amount_synchronizer':
-        return 3221225472
+        return 3
     elif key == 'download_amount_synchronizer':
-        return 21474836480
+        return 2147483648
     elif key == 'in_submenu':
         return False
 
