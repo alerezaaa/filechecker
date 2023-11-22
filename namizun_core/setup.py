@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='namizun_core',
-      version='1.3.8.2',
+      version='1.3.8.3',
       description='namizun main functions',
       author='MalKeMit',
       author_email='khodemalkemit@gmail.com',
