@@ -33,7 +33,7 @@ def get_default(key):
     elif key == 'coefficient_buffer_size':
         return 1
     elif key == 'coefficient_uploader_threads_count':
-        return 2
+        return 1
     elif key == 'coefficient_buffer_sending_speed':
         return 1
     elif key == 'coefficient_limitation':
