@@ -37,7 +37,7 @@ def get_default(key):
     elif key == 'coefficient_buffer_sending_speed':
         return 1
     elif key == 'coefficient_limitation':
-        return 14
+        return 12
     elif key == 'total_upload_cache':
         return 0
     elif key == 'total_download_cache':
@@ -45,7 +45,7 @@ def get_default(key):
     elif key == 'upload_amount_synchronizer':
         return 3
     elif key == 'download_amount_synchronizer':
-        return 2147483648
+        return 1073741824
     elif key == 'in_submenu':
         return False
 
