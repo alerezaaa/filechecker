@@ -45,7 +45,7 @@ def get_default(key):
     elif key == 'upload_amount_synchronizer':
         return 3
     elif key == 'download_amount_synchronizer':
-        return 1073741824
+        return 524288000
     elif key == 'in_submenu':
         return False
 
